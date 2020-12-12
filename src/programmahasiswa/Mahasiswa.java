@@ -24,7 +24,6 @@ public class Mahasiswa {
     Mahasiswa(String nimMhs, String namaMhs, String tgl, int genderMhs){
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");  
         try {  
-            Date date = formatter.parse("31/03/2015");  
             this.tglLahir = formatter.parse(tgl);
         } catch (ParseException e) {} 
         
